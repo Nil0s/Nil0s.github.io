@@ -16,3 +16,7 @@ footer{max-width:1240px;margin:auto;padding:30px 32px 45px;border-top:1px solid 
 /* BSc Final Project */
 .bsc-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:70px;align-items:center}.bsc-copy .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--soft);margin:0 0 22px}.bsc-copy h2{font-family:"Instrument Serif",serif;font-size:clamp(42px,5vw,66px);font-weight:400;line-height:1.02;letter-spacing:-.035em;margin:0 0 28px}.bsc-copy>p:not(.eyebrow){font-size:15px;line-height:1.75;color:var(--soft);margin:0 0 16px}.bsc-video-wrap{background:#171717;overflow:hidden;line-height:0}.bsc-video{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:#171717}.bsc-video:focus{outline:1px solid var(--ink);outline-offset:4px}
 @media(max-width:900px){.bsc-grid{grid-template-columns:1fr;gap:42px}}
+
+/* Featured projects hierarchy */
+.featured-section{padding-bottom:0}.featured-project{position:relative;padding:90px 0;border-top:1px solid var(--line)}.featured-project:first-of-type{border-top:0;padding-top:0}.featured-number{font-size:12px;color:var(--soft);margin-bottom:28px;letter-spacing:.08em}.featured-project h2{margin-top:0}.featured-project:last-child{padding-bottom:110px}
+@media(max-width:760px){.featured-project{padding:70px 0}.featured-project:first-of-type{padding-top:0}.featured-project:last-child{padding-bottom:80px}}

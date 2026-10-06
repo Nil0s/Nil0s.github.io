@@ -60,3 +60,8 @@ footer{max-width:1240px;margin:auto;padding:30px 32px 45px;border-top:1px solid 
 .engine-video-wrap{max-width:1000px;margin:42px auto 24px;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#0e0e0e;box-shadow:0 18px 45px rgba(0,0,0,.08)}
 .engine-video{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:#0e0e0e}
 @media(max-width:760px){.engine-video-wrap{margin:30px 0 20px;border-radius:12px}}
+
+/* NoJobEngine video-only layout */
+.engine-video-wrap{width:min(100%,920px);margin:38px auto 0;border-radius:14px;overflow:hidden;background:#0e0e0e;box-shadow:none}
+.engine-video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#0e0e0e}
+@media(max-width:760px){.engine-video-wrap{width:100%;margin-top:28px;border-radius:10px}}

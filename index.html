@@ -11,7 +11,7 @@
 <header class="site-header">
   <a class="name" href="#top">Francisco Asensi</a>
   <nav>
-    <a href="#featured">Featured</a><a href="#work">Other Work</a><a href="#experience">Experience</a><a href="#about">About</a>
+    <a href="#featured">Featured</a><a href="#experience">Experience</a><a href="#about">About</a>
     <a class="nav-cta" href="Francisco_Ramon_Asensi_Domingo_CV.pdf" target="_blank">CV</a>
   </nav>
 </header>
@@ -20,7 +20,7 @@
   <section class="hero">
     <p class="kicker"><span class="status"></span> Valencia, Spain · Open to opportunities</p>
     <h1>Software engineer building<br><em>real-time experiences.</em></h1>
-    <p class="intro">I build interactive 3D software, digital twins and data-driven systems with Unity, C#, Python and C++. My background spans game development and industrial real-time applications.</p>
+    <p class="intro">I build real-time 3D software, game technology and data-driven systems. My work spans production Unity applications, digital twins and a custom C++ game engine built from the ground up.</p>
     <div class="hero-links">
       <a class="button dark" href="#featured">Featured projects</a>
       <a class="button light" href="mailto:franasensi.dev@gmail.com">Get in touch</a>
@@ -29,7 +29,7 @@
 
   <section class="statement">
     <p>4.5+ years of professional experience</p>
-    <div>Unity & C# <span>·</span> Python <span>·</span> Unreal Engine <span>·</span> C++ <span>·</span> Real-time systems</div>
+    <div>Unity & C# <span>·</span> C++ <span>·</span> Engine Development <span>·</span> Python <span>·</span> Unreal Engine</div>
   </section>
 
   <section id="featured" class="section featured-section">
@@ -87,56 +87,19 @@
       </div>
     </section>
 
-    <section id="games" class="featured-project games-section">
+    <section id="nojobengine" class="featured-project engine-section">
       <div class="featured-number">03</div>
-      <article class="game-feature">
-        <div class="game-content">
-          <div class="game-topline"><span>Gameplay Programmer</span><span>2018 — 2019</span></div>
-          <h2>Tech Clash</h2>
-          <p class="game-lead">A frantic 2D platform fighter where up to four players battle inside futuristic arenas.</p>
-          <p>I worked as a Gameplay Programmer during the seven-month production cycle at ESAT, implementing gameplay and AI systems, player and enemy behaviours, physics-driven interactions and iterating on game feel alongside the wider development team.</p>
-          <div class="game-tags"><span>Unity</span><span>C#</span><span>Gameplay</span><span>AI</span><span>Physics</span></div>
-          <div class="game-facts"><span>Platform Fighter</span><span>Up to 4 Players</span><span>Steam</span></div>
-          <a class="steam-link" href="https://store.steampowered.com/app/1120880/Tech_Clash/?curator_clanid=44144078" target="_blank" rel="noopener">View on Steam ↗</a>
-        </div>
-        <a class="tech-clash-cover" href="https://store.steampowered.com/app/1120880/Tech_Clash/?curator_clanid=44144078" target="_blank" rel="noopener" aria-label="View Tech Clash on Steam">
-          <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1120880/header.jpg" alt="Tech Clash official Steam artwork" loading="lazy">
-        </a>
-      </article>
-    </section>
-
-    <section id="bsc-project" class="featured-project bsc-section">
-      <div class="featured-number">04</div>
-      <div class="bsc-grid">
-        <div class="bsc-copy">
-          <p class="eyebrow">Teesside University · Computer Games Programming</p>
-          <h2>Machine Learning in Unreal Engine.</h2>
-          <p>My BSc final project explored machine-learning techniques inside Unreal Engine, combining game-development workflows with AI experimentation in a real-time environment.</p>
-          <p>The original project video is embedded here as a direct look at the work and the result of the final-year project.</p>
-          <div class="planner-tags"><span>Unreal Engine</span><span>Machine Learning</span><span>AI</span><span>Real-time</span><span>BSc Project</span></div>
-        </div>
-        <div class="bsc-video-wrap">
-          <video class="bsc-video" controls preload="metadata" playsinline poster="assets/videos/machine-learning-unreal-poster.jpg">
-            <source src="assets/videos/machine-learning-unreal.mp4" type="video/mp4">
-            Your browser does not support HTML5 video.
-          </video>
-        </div>
-      </div>
-    </section>
-  </section>
-
-  <section id="work" class="section engine-section">
-    <div class="section-head"><p>Other Work</p><span>02</span></div>
     <div class="engine-intro">
       <div>
-        <p class="eyebrow">Personal Engine Project · V1.0</p>
+        <p class="eyebrow">Custom Game Engine · V1 Foundation Complete</p>
         <h2>NoJobEngine.</h2>
       </div>
       <div class="engine-copy">
-        <p>A lightweight C++ game engine and Unity-inspired editor built from scratch to go deeper into engine architecture, graphics programming and modern C++.</p>
-        <p>V1.0 brings together scene editing, an asset pipeline, PBR rendering, prefabs, physics, lighting, model importing and an editor/runtime workflow.</p>
+        <p>A custom C++ game engine and Unity-inspired editor built from scratch to understand and own the systems that normally sit behind a commercial engine API.</p>
+        <p>The completed V1 foundation brings together a layered OpenGL renderer, PBR and post-processing, scenes and serialization, GUID-based assets, prefabs, model importing, Jolt physics, native C++ scripting and a separated editor/runtime workflow.</p>
         <div class="planner-tags"><span>C++20</span><span>OpenGL 4.6</span><span>Dear ImGui</span><span>Jolt Physics</span><span>Assimp</span><span>CMake</span></div>
-        <a class="engine-github" href="https://github.com/Nil0s/NoJobEngine" target="_blank" rel="noopener">View source on GitHub ↗</a>
+        <div class="engine-status"><strong>V1 foundation complete.</strong> Next phase: exploring an AI system designed to be understandable and controllable rather than a black box.</div>
+        <a class="engine-github" href="https://github.com/Nil0s/NoJobEngine" target="_blank" rel="noopener">Explore NoJobEngine on GitHub ↗</a>
       </div>
     </div>
     <div class="engine-gallery">
@@ -155,8 +118,47 @@
     </div>
   </section>
 
+
+    <section id="games" class="featured-project games-section">
+      <div class="featured-number">04</div>
+      <article class="game-feature">
+        <div class="game-content">
+          <div class="game-topline"><span>Gameplay Programmer</span><span>2018 — 2019</span></div>
+          <h2>Tech Clash</h2>
+          <p class="game-lead">A frantic 2D platform fighter where up to four players battle inside futuristic arenas.</p>
+          <p>I worked as a Gameplay Programmer during the seven-month production cycle at ESAT, implementing gameplay and AI systems, player and enemy behaviours, physics-driven interactions and iterating on game feel alongside the wider development team.</p>
+          <div class="game-tags"><span>Unity</span><span>C#</span><span>Gameplay</span><span>AI</span><span>Physics</span></div>
+          <div class="game-facts"><span>Platform Fighter</span><span>Up to 4 Players</span><span>Steam</span></div>
+          <a class="steam-link" href="https://store.steampowered.com/app/1120880/Tech_Clash/?curator_clanid=44144078" target="_blank" rel="noopener">View on Steam ↗</a>
+        </div>
+        <a class="tech-clash-cover" href="https://store.steampowered.com/app/1120880/Tech_Clash/?curator_clanid=44144078" target="_blank" rel="noopener" aria-label="View Tech Clash on Steam">
+          <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1120880/header.jpg" alt="Tech Clash official Steam artwork" loading="lazy">
+        </a>
+      </article>
+    </section>
+
+    <section id="bsc-project" class="featured-project bsc-section">
+      <div class="featured-number">05</div>
+      <div class="bsc-grid">
+        <div class="bsc-copy">
+          <p class="eyebrow">Teesside University · Computer Games Programming</p>
+          <h2>Machine Learning in Unreal Engine.</h2>
+          <p>My BSc final project explored machine-learning techniques inside Unreal Engine, combining game-development workflows with AI experimentation in a real-time environment.</p>
+          <p>The original project video is embedded here as a direct look at the work and the result of the final-year project.</p>
+          <div class="planner-tags"><span>Unreal Engine</span><span>Machine Learning</span><span>AI</span><span>Real-time</span><span>BSc Project</span></div>
+        </div>
+        <div class="bsc-video-wrap">
+          <video class="bsc-video" controls preload="metadata" playsinline poster="assets/videos/machine-learning-unreal-poster.jpg">
+            <source src="assets/videos/machine-learning-unreal.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+        </div>
+      </div>
+    </section>
+  </section>
+
   <section id="experience" class="section">
-    <div class="section-head"><p>Experience</p><span>03</span></div>
+    <div class="section-head"><p>Experience</p><span>02</span></div>
     <div class="timeline">
       <article>
         <div><time>2021 — 2025</time><p>Valencia, Spain</p></div>
@@ -172,7 +174,7 @@
   </section>
 
   <section id="about" class="section about">
-    <div class="section-head"><p>About</p><span>04</span></div>
+    <div class="section-head"><p>About</p><span>03</span></div>
     <div class="about-grid">
       <h2>Engineering with a<br>real-time mindset.</h2>
       <div>

@@ -65,3 +65,9 @@ footer{max-width:1240px;margin:auto;padding:30px 32px 45px;border-top:1px solid 
 .engine-video-wrap{width:min(100%,920px);margin:38px auto 0;border-radius:14px;overflow:hidden;background:#0e0e0e;box-shadow:none}
 .engine-video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#0e0e0e}
 @media(max-width:760px){.engine-video-wrap{width:100%;margin-top:28px;border-radius:10px}}
+
+/* NoJobEngine documentation link */
+.engine-links{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin-top:14px}
+.engine-links .engine-github{margin-top:0}
+.engine-docs{display:inline-flex;align-items:center;padding:11px 16px;border:1px solid var(--line);border-radius:9px;color:var(--ink);text-decoration:none;font-size:13px;font-weight:600;transition:background .2s,border-color .2s}
+.engine-docs:hover{background:var(--surface,#f2f2f2);border-color:var(--ink)}

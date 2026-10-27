@@ -34,6 +34,8 @@ C:/Users/franr/Documents/GitHub/NoJobEngine/Engine/AI/Neural/NeuralMatrix.h:2: w
 C:/Users/franr/Documents/GitHub/NoJobEngine/Engine/AI/Neural/NeuralNetwork.h:2: warning: Found non-existing group 'Neural' for the command '@ingroup', ignoring command
 C:/Users/franr/Documents/GitHub/NoJobEngine/Engine/AI/Perception/IspatialQuery.h:2: warning: Found non-existing group 'Perception' for the command '@ingroup', ignoring command
 C:/Users/franr/Documents/GitHub/NoJobEngine/Engine/AI/Perception/PerceptionSensor.h:2: warning: Found non-existing group 'Perception' for the command '@ingroup', ignoring command
+C:/Users/franr/Documents/GitHub/NoJobEngine/Engine/AI/Reinforcement/ReinforcementLearning.h:2: warning: Found non-existing group 'ReinforcementLearning' for the command '@ingroup', ignoring command
+C:/Users/franr/Documents/GitHub/NoJobEngine/Engine/AI/Reinforcement/ReinforcementTests.cpp:1: warning: Found non-existing group 'ReinforcementLearning' for the command '@ingroup', ignoring command
 C:/Users/franr/Documents/GitHub/NoJobEngine/Engine/Animation/Animation.h:2: warning: Found non-existing group 'Animation' for the command '@ingroup', ignoring command
 C:/Users/franr/Documents/GitHub/NoJobEngine/Engine/Asset/AssetManager.h:2: warning: Found non-existing group 'Asset' for the command '@ingroup', ignoring command
 C:/Users/franr/Documents/GitHub/NoJobEngine/Engine/Assets/Asset.h:2: warning: Found non-existing group 'Assets' for the command '@ingroup', ignoring command
@@ -80,7 +82,14 @@ C:/Users/franr/Documents/GitHub/NoJobEngine/Editor/Build/StandaloneBuilder.h:2: 
 C:/Users/franr/Documents/GitHub/NoJobEngine/Editor/EditorCamera.h:2: warning: Found non-existing group 'Editor' for the command '@ingroup', ignoring command
 C:/Users/franr/Documents/GitHub/NoJobEngine/Editor/EditorLayer.h:2: warning: Found non-existing group 'Editor' for the command '@ingroup', ignoring command
 C:/Users/franr/Documents/GitHub/NoJobEngine/Editor/Panels/NeuralEditorPanel.h:2: warning: Found non-existing group 'Panels' for the command '@ingroup', ignoring command
+C:/Users/franr/Documents/GitHub/NoJobEngine/Editor/Panels/ReinforcementPanel.cpp:1: warning: Found non-existing group 'Panels' for the command '@ingroup', ignoring command
+C:/Users/franr/Documents/GitHub/NoJobEngine/Editor/Panels/ReinforcementPanel.h:1: warning: Found non-existing group 'Panels' for the command '@ingroup', ignoring command
 C:/Users/franr/Documents/GitHub/NoJobEngine/Editor/Scene/SceneFileDialog.h:2: warning: Found non-existing group 'Scene' for the command '@ingroup', ignoring command
 C:/Users/franr/Documents/GitHub/NoJobEngine/Editor/Scripting/ProjectScriptBuildSystem.h:2: warning: Found non-existing group 'Scripting' for the command '@ingroup', ignoring command
 C:/Users/franr/Documents/GitHub/NoJobEngine/Editor/Scripting/ProjectScriptManager.h:2: warning: Found non-existing group 'Scripting' for the command '@ingroup', ignoring command
 C:/Users/franr/Documents/GitHub/NoJobEngine/Editor/Scripting/VisualStudioIntegration.h:2: warning: Found non-existing group 'Scripting' for the command '@ingroup', ignoring command
+C:/Users/franr/Documents/GitHub/NoJobEngine/Engine/AI/Reinforcement/TrackingLearningProof.cpp:13: warning: The following parameter of main(int argc, char **argv) is not documented:
+  parameter 'argc'
+C:/Users/franr/Documents/GitHub/NoJobEngine/Engine/AI/Reinforcement/TrackingEvaluation.h:52: warning: The following parameters of NoJob::RL::EvaluateTracking(const Neural::NeuralNetwork &policy, TrackingReport report={}, const std::function< bool(size_t)> &progress={}) are not documented:
+  parameter 'policy'
+  parameter 'report'

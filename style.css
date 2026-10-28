@@ -71,3 +71,26 @@ footer{max-width:1240px;margin:auto;padding:30px 32px 45px;border-top:1px solid 
 .engine-links .engine-github{margin-top:0}
 .engine-docs{display:inline-flex;align-items:center;padding:11px 16px;border:1px solid var(--line);border-radius:9px;color:var(--ink);text-decoration:none;font-size:13px;font-weight:600;transition:background .2s,border-color .2s}
 .engine-docs:hover{background:var(--surface,#f2f2f2);border-color:var(--ink)}
+
+
+/* NJE Releases — static Alpha 0.1 showcase */
+.nje-releases-section{padding:68px 0 90px;border-top:1px solid var(--line)}
+.nje-releases-heading{max-width:760px;margin-bottom:30px}
+.nje-releases-heading h2{margin:8px 0 16px;font-size:clamp(2.5rem,5vw,4.4rem);letter-spacing:-.045em;line-height:1.08}
+.nje-releases-heading>p:last-child{line-height:1.75;max-width:640px}
+.nje-release-dot{color:var(--soft)}
+.nje-release-card{display:flex;justify-content:space-between;align-items:center;gap:36px;padding:36px;border:1px solid var(--line);border-radius:16px;background:rgba(127,127,127,.035)}
+.nje-release-info{max-width:630px}
+.nje-release-label{font-size:11px;font-weight:700;letter-spacing:.16em;color:var(--soft)}
+.nje-release-info h3{font-size:clamp(1.5rem,3vw,2.25rem);margin:12px 0 14px;letter-spacing:-.035em}
+.nje-release-info h3 span{color:var(--soft)}
+.nje-release-info p{line-height:1.7;margin:0 0 20px}
+.nje-release-tags{display:flex;flex-wrap:wrap;gap:8px}
+.nje-release-tags span{padding:7px 11px;border:1px solid var(--line);border-radius:100px;font-size:12px}
+.nje-release-actions{display:flex;flex-direction:column;align-items:stretch;gap:12px;min-width:210px}
+.nje-release-actions a{text-decoration:none;text-align:center;padding:14px 19px;border-radius:8px;font-size:14px;font-weight:600;transition:transform .2s ease,opacity .2s ease}
+.nje-release-actions a:hover{transform:translateY(-2px);opacity:.85}
+.nje-release-download{background:var(--text,#fff);color:var(--bg,#111)!important}
+.nje-release-repository{border:1px solid var(--line);color:inherit}
+.nje-release-note{margin:22px 0 0;font-size:13px;color:var(--soft);line-height:1.6}
+@media(max-width:760px){.nje-releases-section{padding:52px 0 68px}.nje-release-card{flex-direction:column;align-items:stretch;padding:24px;gap:26px}.nje-release-actions{min-width:0}}
